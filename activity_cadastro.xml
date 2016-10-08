@@ -22,7 +22,12 @@
         android:id="@+id/nome"
         android:inputType="textPersonName"
         />
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpf"
+        android:digits="0123456789-."
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,12 +42,7 @@
         android:id="@+id/endereco"
         />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/cpf"
-        android:digits="0123456789-."
-        />
+   
 
     <Button
         android:layout_width="match_parent"
